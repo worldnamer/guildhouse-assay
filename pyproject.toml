@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "assay"
+name = "jd-assay"
 version = "0.1.0"
 description = "Check whether a job posting is worth applying to, using Jev."
 readme = "README.md"

@@ -284,7 +284,7 @@ def purge_data():
         folder.rmdir()  # only succeeds if empty
     except OSError:
         pass
-    print(f"Deleted assay's data in {folder}. You can now run `pipx uninstall assay`.")
+    print(f"Deleted assay's data in {folder}. You can now run `pipx uninstall jd-assay`.")
 
 
 def find_or_exit(db, posting_id):

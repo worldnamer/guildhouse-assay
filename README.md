@@ -22,7 +22,7 @@ Tokens used: 9820
 Assay is installed as a pipx package, and requires Python 3.12 or newer.
 
 ```
-pipx install assay
+pipx install jd-assay
 ```
 
 You can also install it from this repo using:
@@ -82,7 +82,7 @@ Uninstalling the program does not delete your data. To remove everything:
 ```
 assay export backup.jsonl   # optional: keep a copy of your postings
 assay purge
-pipx uninstall assay
+pipx uninstall jd-assay
 ```
 
 ## Commands
