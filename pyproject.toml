@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "assay"
 version = "0.1.0"
 description = "Check whether a job posting is worth applying to, using Jev."
+readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.12"
@@ -25,3 +26,6 @@ assay = "assay.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/worldnamer/guildhouse-assay"
