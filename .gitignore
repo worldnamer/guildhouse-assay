@@ -1,0 +1,15 @@
+# Allowlist: nothing is tracked unless it is named here. The database, the trained model, postings and
+# anything else personal stay local.
+*
+!.gitignore
+!pyproject.toml
+!README.md
+!LICENSE
+!src/
+!src/**
+!tests/
+!tests/**
+# ...except build and cache files inside the allowed folders
+__pycache__/
+*.pyc
+*.egg-info/
